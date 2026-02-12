@@ -35,7 +35,7 @@ st.markdown(
 )
 
 # -------------------- LOAD MODEL --------------------
-model = load_model("plant_disease_model.keras")
+model = load_model("plant_disease_model.keras",compile=False)
 
 # -------------------- CLASS NAMES --------------------
 class_names = [
